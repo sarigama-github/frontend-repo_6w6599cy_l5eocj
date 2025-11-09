@@ -62,7 +62,7 @@ export default function DesignSystemDoc() {
           <ul className="list-disc pl-6 text-sm text-slate-700 dark:text-slate-300">
             <li>Grid: 1 → 2 → 3 columns at 640px and 1024px breakpoints respectively.</li>
             <li>Type scales down by one step at each breakpoint; maintain minimum tap targets of 44px.</li>
-            <li>Navbar condenses to icon-only at <640px, shows labels at ≥640px.</li>
+            <li>Navbar condenses to icon-only below 640px, shows labels at 640px and up.</li>
             <li>Hero min-height 80vh (mobile) → 100vh (desktop); buttons stack on mobile.</li>
           </ul>
         </div>
